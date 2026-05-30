@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Technology - Especialistas en Microelectrónica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de navegación: Enlace de contacto apuntando al ID del footer -->
+    <nav class="navbar">
+        <a href="#" class="logo" aria-label="On Technology Inicio">On Technology</a>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenido">
+        
+        <!-- Reproductor de audio flotante controlado por JavaScript -->
+        <div class="contenedor-audio">
+            <button id="btn-musica" class="boton-mini-audio" aria-live="polite">🎵 Reproducir Música</button>
+            <audio id="mi-audio" loop src="Metallica.mp3"></audio>
+        </div>
+
+        <!-- Sección Hero principal optimizada para SEO jerárquico -->
+        <section class="seccion-hero-flex">
+            <div class="hero-texto">
+                <h1>Introducción a la Reparación de Placas Base</h1>
+                <p>El corazón de cualquier dispositivo tecnológico, desde la computadora de escritorio más potente hasta el teléfono inteligente que llevas en el bolsillo, es la <strong>placa base</strong> (o tarjeta madre).</p>
+                <p>Cuando un dispositivo falla, la solución más común y costosa suele ser cambiar la placa por completo. En la era de la sostenibilidad, la <strong>reparación a nivel de componentes</strong> es una disciplina crucial.</p>
+            </div>
+
+            <!-- Imagen del Hero integrada al script del carrusel automático -->
+            <div class="hero-imagen">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&auto=format&fit=crop" alt="Imagen de tecnología microelectrónica de precisión">
+            </div>
+        </section>
+
+        <!-- Banner publicitario de ancho completo unificado -->
+        <div class="contenedor-imagen-banner">
+            <img src="Gemini_Generated_Image_3fpctq3fpctq3fpc.png" alt="Mesa de trabajo profesional de On Technology">
+        </div>
+
+        <!-- Bloque de detalles técnicos con marcadores personalizados -->
+        <section class="detalles">
+            <h3>El Arte del Diagnóstico y la Microelectrónica</h3>
+            <p>Reparar una placa base no consiste simplemente en soldar piezas al azar; es un proceso científico que combina:</p>
+            
+            <ul class="lista-caracteristicas">
+                <li><strong>Análisis de Esquemas Eléctricos:</strong> Leer e interpretar los mapas ("blueprints") de la placa para rastrear voltajes y señales.</li>
+                <li><strong>Diagnóstico de Fallas:</strong> Utilizar herramientas de medición como el multímetro y el osciloscopio para localizar cortocircuitos, componentes quemados o líneas de comunicación abiertas.</li>
+                <li><strong>Técnicas de Soldadura Avanzada:</strong> Dominar el uso de la estación de aire caliente y el cautín para reemplazar componentes microscópicos como condensadores SMD, resistencias o realizar procesos complejos como el Reballing en chips integrados (BGA).</li>
+            </ul>
+
+            <h3>¿Por qué especializarse en la Reparación de Placas Base?</h3>
+            <p>Entender la tecnología aplicada a la reparación de placas base te permite devolverle la vida a equipos que otros darían por perdidos. No solo reduce la basura electrónica global, sino que transforma el servicio técnico tradicional en un trabajo de <strong>ingeniería inversa y precisión quirúrgica</strong>, ofreciendo soluciones reales, económicas y de calidad.</p>
+        </section>
+
+        <!-- Sección multimedia Reballing con desconexión de audio inteligente -->
+        <section class="seccion-reballing">
+            <div class="reballing-contenido">
+                <h3>El Proceso de Reballing: CPU, GPU y VRAM</h3>
+                <p>El Reballing es una intervención de ingeniería inversa de alta precisión. Cuando los ciclos de temperatura extrema agrietan las uniones debajo de los integrados tipo <strong>BGA (Ball Grid Array)</strong>, el dispositivo deja de funcionar.</p>
+                
+                <ul class="lista-reballing">
+                    <li><strong>Desoldado Térmico:</strong> Usando una estación de retrabajo infrarroja o de aire caliente, se aplica una curva de temperatura controlada para retirar el chip sin dañar las pistas de la placa base.</li>
+                    <li><strong>Limpieza y Preparación:</strong> Se remueven los residuos de soldadura vieja sin plomo utilizando malla desoldadora y flux de alta calidad.</li>
+                    <li><strong>Reboleo (Reballing):</strong> Se posiciona un stencil alineado milimétricamente y se colocan esferas nuevas de soldadura (aleación Sn63/Pb37) sobre los pads del chip.</li>
+                    <li><strong>Fusión y Soldadura Final:</strong> Se funden las esferas al chip y se vuelve a soldar el componente sobre la placa base con precisión quirúrgica.</li>
+                </ul>
+            </div>
+
+            <div class="reballing-video-wrapper">
+                <video controls preload="auto" poster="Gemini_Generated_Image_3fpctq3fpctq3fpc.png">
+                    <source src="./reballing.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </section>
+
+        <!-- Sección de servicios maquetada mediante CSS Grid estructurado -->
+        <section class="servicios">
+            <h3>Nuestras Especialidades</h3>
+            
+            <div class="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <h4>Laptops</h4>
+                    <p>Reparación de cortocircuitos en líneas principales, fallas de encendido y cambios de KBC.</p>
+                </div>
+                
+                <div class="tarjeta">
+                    <h4>Smartphones</h4>
+                    <p>Micro-soldadura de pin de carga, IC de audio, Tristar y fallas de retroiluminación (Backlight).</p>
+                </div>
+                
+                <div class="tarjeta">
+                    <h4>Consolas</h4>
+                    <p>Reemplazo de puertos HDMI, reballing de APU y solución a errores de luz azul/azul de la muerte.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botón de acción: Convertido a enlace semántico que lleva a la sección de contacto -->
+        <div class="contenedor-accion">
+            <a href="#contacto" class="mi-boton" aria-label="Saber más sobre nuestros servicios e ir a redes de contacto">Saber más</a>
+        </div>
+        
+    </main>
+
+    <!-- Footer: Se añade el id="contacto" para recibir el anclaje de los enlaces -->
+    <footer id="contacto" class="footer-redes">
+        <div class="redes-container">
+            <p>&copy; 2026 On Technology. Todos los derechos reservados.</p>
+            <div class="iconos-redes">
+                <a href="https://instagram.com/tu_usuario" target="_blank" rel="noopener noreferrer" class="icono-link instagram" aria-label="Visitar nuestro Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@tu_usuario" target="_blank" rel="noopener noreferrer" class="icono-link tiktok" aria-label="Visitar nuestro TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/573206137535" target="_blank" rel="noopener noreferrer" class="icono-link whatsapp" aria-label="Escribirnos a WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com/tu_usuario" target="_blank" rel="noopener noreferrer" class="icono-link facebook" aria-label="Visitar nuestro Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
